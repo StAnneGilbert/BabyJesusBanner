@@ -1,6 +1,1 @@
-[submodule "hugosite/themes/roxo"]
-	path = hugosite/themes/roxo
-	url = https://github.com/StaticMania/roxo-hugo.git
-[submodule "hugosite/themes/stanne"]
-	path = hugosite/themes/stanne
-	url = https://github.com/StaticMania/roxo-hugo.git
+
