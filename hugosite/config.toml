@@ -1,7 +1,7 @@
 baseURL       = ""
 languageCode  = "en-us"
 title         = "Baby Jesus | Door Banner"
-theme         = "stanne"
+theme         = "roxo"
 summarylength = 25
 
 # Site Menus
