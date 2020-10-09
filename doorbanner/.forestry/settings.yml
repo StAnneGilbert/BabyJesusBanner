@@ -21,12 +21,6 @@ sections:
   label: Data
   create: all
   match: "*"
-- type: directory
-  path: doorbanner/static/images
-  label: Images
-  create: all
-  match: "*"
-  new_doc_ext: ".jpg"
 - type: document
   path: doorbanner/config.toml
   label: Our Config File
