@@ -14,7 +14,7 @@ weight = 2
 name = "Home"
 weight = 1
 [params]
-author = "Baby Jesus Door Banners"
+author = "Baby Jesus Mission"
 dateFormat = "26 FEB 1994"
 description = "Share the joy of Christmas by bringing baby Jesus to your neighborhood. One door at a time."
 [params.banner]
@@ -24,8 +24,8 @@ heading = "Baby Jesus Door Banners"
 logo = "images/logo.png"
 primary_button = " Buy Now  "
 primary_button_url = "https://stanneaz.org"
-secondary_button = " Watch Awesome Video "
-secondary_button_url = "contact"
+secondary_button = " Watch Video "
+secondary_button_url = "https://www.youtube.com/watch?v=cbQZ8GK2usU"
 tagline = "Share the joy of Christmas by bringing baby Jesus to your neighborhood. One door at a time."
 [params.footer.contactInfo]
 address = "440 E Elliot Rd<br>Gilbert, AZ 85234"
