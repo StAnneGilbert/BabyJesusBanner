@@ -16,18 +16,8 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: doorbanner/themes/stanne
+  path: doorbanner/themes/stanne/layouts
   label: Theme Layouts
-  create: all
-  match: "**/*"
-- type: directory
-  path: doorbanner/content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: doorbanner/content/posts
-  label: Posts
   create: all
   match: "**/*"
 upload_dir: doorbanner/static/uploads
