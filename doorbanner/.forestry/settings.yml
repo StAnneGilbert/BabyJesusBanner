@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: doorbanner/static/images
+  label: Images
+  create: all
+  match: "**/*"
 - type: document
   path: doorbanner/themes/stanne/layouts/index.html
   label: Homepage template
@@ -16,12 +21,6 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: html
-- type: directory
-  path: doorbanner/themes/stanne/assets
-  label: Styles & Scripts
-  create: all
-  match: "**/*"
-  new_doc_ext: ".scss"
 - type: directory
   path: doorbanner/data
   label: Data
