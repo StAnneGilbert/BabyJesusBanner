@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/video/video.md
+  label: Video Page
+  match: "**/*"
 - type: directory
   path: data
   label: Data
