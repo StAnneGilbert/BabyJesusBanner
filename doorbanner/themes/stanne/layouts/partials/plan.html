@@ -1,0 +1,23 @@
+{{ with .Site.Data.plan }}
+  {{ if .enable }}
+  <section class="site-plan" id="plan" style='background-image: url("{{ .background_image | absURL }}");'>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2 class="text-white">{{ .heading }}</h2>
+          </div>
+        </div>
+        {{ range .plan_steps }}
+        <div class="col-lg-3 col-md-3">
+          <div class="site-plan-item">
+            <span class="site-plan-item-title">{{ .title }}</span>
+            <h3 class="site-plan-item-task">{{ .item }}+</h3>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

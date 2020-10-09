@@ -1,0 +1,23 @@
+{{ with .Site.Data.stakes }}
+  {{ if .enable }}
+  <section class="site-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+            <p>
+              {{ .subtitle }}
+            </p>
+            <p style="color:#666;background-color:#fff;padding:50px">
+              {{ .thecontent }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

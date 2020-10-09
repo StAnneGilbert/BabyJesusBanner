@@ -3,18 +3,82 @@ languageCode = "en-us"
 title = "Baby Jesus Door Banners"
 theme = "stanne"
 [menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    pre = "pen-tool"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    pre = "tag"
-    url = "/tags/"
-    weight = 3
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Watch Video"
+    url     = "video"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Buy Now"
+    url     = "https://stanneaz.org"
+    weight  = 4
+    
+# Site Params
+[params]
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Share the joy of Christmas by bringing baby Jesus to your neighborhood. One door at a time."
+  author = "Baby Jesus Door Banners"
+  
+  
+# Banner Section
+  [params.banner]
+    enable                = true
+    logo = "images/logo.png"
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Baby Jesus Door Banners"
+    tagline               = "Share the joy of Christmas by bringing baby Jesus to your neighborhood. One door at a time."
+    primary_button        = " Buy Now  "
+    primary_button_url    = "https://stanneaz.org"
+    secondary_button      = " Watch Awesome Video "
+    secondary_button_url  = "contact"
+    
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "440 E Elliot Rd<br>Gilbert, AZ 85234"
+      phone   = "480-507-4400"
+      email   = "stanneaz.org/contact"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Medium"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Dribbble"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"

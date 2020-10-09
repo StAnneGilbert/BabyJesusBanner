@@ -1,0 +1,30 @@
+.site-plan{
+  padding: 130px 0;
+  background-size: cover;
+  background-position: center center;
+  @include desktop{
+    padding: 100px 0;
+  }
+  .section-title{
+    margin-bottom: 40px;
+  }
+  @include mobile{
+    padding: 50px 0;
+  }
+  &-item{
+    @include desktop{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    &-title{
+      font-size: 60px;
+      font-weight: 300;
+    }
+    &-task{
+      color: #333;
+      font-size: 30px;
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+  }
+}

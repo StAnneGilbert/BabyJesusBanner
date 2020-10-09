@@ -1,0 +1,15 @@
+enable : true
+heading : "THE PLAN"
+plan_steps: 
+  - title: "Step 1."
+    item: "Buy your banner."
+
+  - title: "Step 2."
+    item: "Attach banner to door."
+
+  - title: "Step 3."
+    item: "Share baby Jesus with your friends & family."
+
+    
+    
+    
