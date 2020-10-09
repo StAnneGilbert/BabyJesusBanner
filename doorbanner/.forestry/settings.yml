@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: doorbanner/static/images
-  label: Images
-  create: all
-  match: "**/*"
 - type: document
   path: doorbanner/themes/stanne/layouts/index.html
   label: Homepage template
@@ -26,6 +21,12 @@ sections:
   label: Data
   create: all
   match: "*"
+- type: directory
+  path: doorbanner/static/images
+  label: Images
+  create: all
+  match: "*"
+  new_doc_ext: ".jpg"
 - type: document
   path: doorbanner/config.toml
   label: Our Config File
