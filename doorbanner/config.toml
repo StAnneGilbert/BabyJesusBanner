@@ -8,7 +8,7 @@ url = "https://stanneaz.org"
 weight = 3
 [[menu.nav]]
 name = "Watch Video"
-url = "video"
+url = "https://www.youtube.com/watch?v=cbQZ8GK2usU"
 weight = 2
 [[menu.nav]]
 name = "Home"
