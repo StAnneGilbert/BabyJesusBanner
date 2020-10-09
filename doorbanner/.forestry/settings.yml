@@ -7,12 +7,12 @@ sections:
 - type: document
   path: doorbanner/themes/stanne/layouts/index.html
   label: Homepage template
-  match: "**/*"
 - type: directory
   path: doorbanner/themes/stanne/layouts
-  label: Theme Layouts
+  label: Theme Templates
   create: all
   match: "**/*"
+  new_doc_ext: ".html"
 - type: document
   path: doorbanner/content/video/video.md
   label: Video Page
