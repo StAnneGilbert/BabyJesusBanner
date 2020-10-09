@@ -5,19 +5,18 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: config.toml
+  path: doorbanner/config.toml
   label: config
 - type: document
-  path: content/video/video.md
+  path: doorbanner/content/video/video.md
   label: Video Page
-  match: "**/*"
 - type: directory
-  path: data
+  path: doorbanner/data
   label: Data
   create: all
   match: "*"
 - type: directory
-  path: themes/stanne
+  path: doorbanner/themes/stanne
   label: Theme Layouts
   create: all
   match: "**/*"
