@@ -7,15 +7,21 @@ sections:
 - type: document
   path: doorbanner/themes/stanne/layouts/index.html
   label: Homepage template
+- type: document
+  path: doorbanner/content/video/video.md
+  label: Video Page
 - type: directory
   path: doorbanner/themes/stanne/layouts
   label: Theme Templates
   create: all
   match: "**/*"
   new_doc_ext: html
-- type: document
-  path: doorbanner/content/video/video.md
-  label: Video Page
+- type: directory
+  path: doorbanner/themes/stanne/assets
+  label: Styles & Scripts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".scss"
 - type: directory
   path: doorbanner/data
   label: Data
