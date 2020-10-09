@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: doorbanner/config.toml
-  label: config
+- type: directory
+  path: doorbanner/themes/stanne/layouts
+  label: Theme Layouts
+  create: all
+  match: "**/*"
 - type: document
   path: doorbanner/content/video/video.md
   label: Video Page
@@ -15,11 +17,9 @@ sections:
   label: Data
   create: all
   match: "*"
-- type: directory
-  path: doorbanner/themes/stanne/layouts
-  label: Theme Layouts
-  create: all
-  match: "**/*"
+- type: document
+  path: doorbanner/config.toml
+  label: Our Config File
 upload_dir: doorbanner/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
