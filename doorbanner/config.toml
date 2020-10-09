@@ -41,6 +41,12 @@ theme = "stanne"
     secondary_button      = " Watch Awesome Video "
     secondary_button_url  = "contact"
     
+[params.plan]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "THE PLAN"
+
+    
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]

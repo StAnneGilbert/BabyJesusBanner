@@ -6,12 +6,13 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
         <br>
-          <div class="site-hero-content text-center">
-            <h5>{{ .tagline }}</h5>
-            <h1>
+          <div class="site-hero-content text-center" style="padding:20px 0 0 0">
+          <img src="images/nino-jesus.jpg" width="123" height="224" alt="Baby Jesus">
+            <h5 style="margin:20px 0 0;padding:0">{{ .tagline }}</h5>
+            <h1 style="margin:0;padding:0">
               {{ .heading }}
             </h1>
-            <ul class="site-hero-content-buttons">
+            <ul class="site-hero-content-buttons" style="margin:20px 0 0;padding:0">
               <li>
                 <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary">
                   <span class="btn-area">
@@ -35,7 +36,7 @@
         </div>
       </div>
     </div>
-    <a href="#plan" class="site-hero-scroll scroll-to">
+    <a href="#plan" class="site-hero-scroll scroll-to" style="bottom:40px">
       <img src="images/arrow-down.svg" alt="arrow-down">
     </a>
   </section>
