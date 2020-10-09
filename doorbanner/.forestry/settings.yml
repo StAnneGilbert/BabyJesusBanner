@@ -4,9 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: themes/stanne/layouts/index.html
-  label: Homepage
+- type: directory
+  path: themes/stanne/*
+  label: Theme Layouts
+  create: all
   match: "**/*"
 - type: directory
   path: doorbanner/content
